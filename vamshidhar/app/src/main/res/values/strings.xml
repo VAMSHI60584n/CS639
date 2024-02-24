@@ -1,0 +1,37 @@
+<resources>
+    <string name="app_name">vamshidhar</string>
+    <string name="action_settings">Settings</string>
+    <string name="action_about">About</string>
+
+
+
+
+
+
+
+    <!-- Strings used for fragments for navigation -->
+    <string name="Biography">Biography</string>
+    <string name="Hobbies">Hobbies</string>
+
+    <string name="Contact">Contact</string>
+
+    <string name="previous">Previous</string>
+
+    <string name="my_bio">
+       My Self Vamshidhar Reddy Mamidi, I am a Pace Graduate student.
+        I am here at Pace University doing my masters in Computer Science,
+        since I am very much interested in computer technology.
+        I have done my Bachelors in Computer Applications (2016-19).
+        I am further interested in learning new technologies like AWS and cloud computing.
+    </string>
+
+    <string name="hobbies_list">my hobbies are playing chess</string>
+    <string name="contact_info">My Email is vm60584n@pace.edu</string>
+
+
+
+
+
+
+
+</resources>

@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/nav_graph"
+    app:startDestination="@id/Biography">
+
+    <fragment
+        android:id="@+id/Biography"
+        android:name="com.example.vamshidhar.FirstFragment"
+        android:label="@string/Biography"
+        tools:layout="@layout/fragment_first">
+
+        <action
+            android:id="@+id/action_FirstFragment_to_SecondFragment"
+            app:destination="@id/buttonHobbies" />
+
+        <action
+            android:id="@+id/action_FirstFragment_to_ThirdFragment"
+            app:destination="@id/buttonContact" />
+    </fragment>
+    <fragment
+        android:id="@+id/buttonHobbies"
+        android:name="com.example.vamshidhar.SecondFragment"
+        android:label="@string/Hobbies"
+        tools:layout="@layout/fragment_second">
+
+        <action
+            android:id="@+id/action_SecondFragment_to_FirstFragment"
+            app:destination="@id/Biography" />
+
+    </fragment>
+    <fragment
+        android:id="@+id/buttonContact"
+        android:name="com.example.vamshidhar.ThirdFragment"
+        android:label="@string/Contact"
+        tools:layout="@layout/fragment_third">
+
+        <action
+            android:id="@+id/action_ThirdFragment_to_FirstFragment"
+            app:destination="@id/Biography" />
+
+    </fragment>
+</navigation>
