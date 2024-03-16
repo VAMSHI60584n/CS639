@@ -1,0 +1,19 @@
+<resources>
+    <string name="app_name">conversion</string>
+    <string name="action_settings">Settings</string>
+    <!-- Strings used for fragments for navigation -->
+    <string name="first_fragment_label">Home Page</string>
+    <string name="second_fragment_label">Conversion Page</string>
+    <string name="next">Conversion page</string>
+    <string name="previous">Home Page</string>
+
+
+    <string name="nextButtonText">
+        Click the above button to go to Conversion Page
+    </string>
+    <string name="enter_liters">Enter numerical value</string>
+    <string name="convert">Convert</string>
+    <string name="conversion_will_display" />
+    <string name="developer_name">This app was developed by Vamshidhar Reddy Mamidi</string>
+    <string name="enter_liters_here">Enter liters to convert:</string>
+</resources>
